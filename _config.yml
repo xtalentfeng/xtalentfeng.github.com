@@ -1,70 +1,93 @@
-url: https://y7kim.github.io
-#baseurl: /agency-jekyll-theme/
+# Site wide configuration
 
-# Site settings
-title: Awesome Title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Made Mistakes
+description: "Personal website of designer slash illustrator Michael Rose."
+logo: site-logo.png
+teaser: default-teaser.png
+locale: en_US
+url: https://mademistakes.com
 
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: fed136
-  secondary: fec503  
-  secondary-dark: 333
 
-# Team names, titles and social links
-people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+# Jekyll configuration
 
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
-
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
-
-# Build settings
+permalink: /:categories/:title/
+lsi: true
 markdown: kramdown
-permalink: pretty
+kramdown:
+  toc_levels: 1..2
+highlighter: rouge
+gems:
+  - jekyll-sitemap
+  - jekyll-archives
+include: [".htaccess"]
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "node_modules", "Gruntfile.js", "package.json", ".jekyll-assets-cache"]
+
+
+# Plugin: jekyll-assets
+
+assets:
+  sources:
+    - _assets/javascripts
+    - _assets/stylesheets
+  baseurl: https://mademistakes.com/assets/
+  js_compressor: uglifier
+  css_compressor: sass
+  cachebust: hard
+  cache: true
+  debug: false
+  version: 1
+
+
+# Plugin: jekyll-archives
+
+jekyll-archives:
+  enabled:
+    - tags
+    - year
+  layouts:
+    year: year_index
+    tag: tag_index
+  permalinks:
+    year: /:year/
+    tag: /tag/:name/
+
+
+# Site owner
+
+owner:
+  name: Michael Rose
+  email: michael@mademistakes.com
+  twitter: mmistakes
+  facebook: michaelrose
+  instagram: mmistakes
+  tumblr: mademistakes
+  github: mmistakes
+  github-repo: https://github.com/mmistakes/made-mistakes-jekyll/blob/master/
+  google:
+    ad-client: ca-pub-7328585512091257
+    ad-slot: 3049671934
+    analytics: UA-2011187-1
+    plus: https://plus.google.com/+MichaelRoseDesign/posts
+    verify: geapSKtvpBNDSfXVmF09E9CnaHGglbO61r4XgLZtEmo
+  bing:
+    verify: D81F4C18A6CB3018F64D7C827D953DFD
+  alexa:
+    verify: Y5DYjZ4VWlrQzBP5kcQJeOKLNas
+  yandex:
+    verify: 55a5419baf76a498
+  bio: "Just another boring, tattooed, time traveling designer from Buffalo, New York. I enjoy eating chicken wings and sketching on an iPad."
+  avatar: bio-photo.jpg # 160x160 px image for author byline
+disqus-shortname: mmistakes
+
+
+# Collections
+
+collections:
+  faqs:
+    output: true
+    permalink: /:collection/:path/
+    title: FAQs
+  components:
+    output: false
+  colors:
+    output: false
