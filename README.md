@@ -1,30 +1,10 @@
-# So Simple Theme
+svmiller.com
+============
 
-Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the followup to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes/) -- by designer slash illustrator [Michael Rose](http://mademistakes.com).
+This is my personal/academic website as hosted on Github at [svmiller.com](http://svmiller.com) and powered by Jekyll.
 
-[![Build Status](https://travis-ci.org/mmistakes/so-simple-theme.svg?branch=master)](https://travis-ci.org/mmistakes/so-simple-theme)
+I discuss the reasons for the move [here](http://svmiller.com/blog/2015/08/create-your-website-in-jekyll/).
 
-## So Simple Theme is all about:
+This repository will also serve as my most up-to-date Jekyll theme as well. I keep a minimal version of [my no-good-very-bad template](https://github.com/svmiller/steve-ngvb-jekyll-template) on a Github repository. It's basically a Frankenstein monster of [Joel Glovier](http://joelglovier.com/)'s `jekyll-new` theme and [Alex King](http://www.alexking.org)'s [Favepersonal](https://crowdfavorite.com/favepersonal/) Wordpress theme.
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
-* Minimal embellishments and subtle animations.
-* Optional large feature images for posts and pages.
-* [Custom 404 page](http://mmistakes.github.io/so-simple-theme/404.html) to get you started.
-* Basic [search capabilities](https://github.com/mathaywarduk/jekyll-search)
-* Support for Disqus Comments
-
-![screenshot of So Simple Theme](http://mmistakes.github.io/so-simple-theme/images/so-simple-theme-preview.jpg)
-
-See a [live version of So Simple](http://mmistakes.github.io/so-simple-theme/) hosted on GitHub.
-
----
-
-## Getting Started
-
-So Simple takes advantage of Sass and data files to make customizing easier. These features require Jekyll 2.x and will not work with older versions of Jekyll.
-
-To learn how to install and use this theme check out the [Setup Guide](http://mmistakes.github.io/so-simple-theme/theme-setup/) for more information.
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/mmistakes/so-simple-theme/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
+I'm not sure this will help with search engine optimization, but, here goes: Steven V. Miller is an assistant professor and political scientist at Clemson University with research interests in international conflict and political behavior. His research has been published in journals like *Comparative Political Studies*, *Journal of Conflict Resolution*, *Journal of Peace Research*, *Conflict Management and Peace Science*, and *Social Science Quarterly*. Contents on this website typically involve professional development for students, R, LaTeX, and, occasionally, political science topics.
