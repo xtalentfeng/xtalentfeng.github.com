@@ -1,10 +1,33 @@
-svmiller.com
-============
+---
+layout: default
+---
 
-This is my personal/academic website as hosted on Github at [svmiller.com](http://svmiller.com) and powered by Jekyll.
 
-I discuss the reasons for the move [here](http://svmiller.com/blog/2015/08/create-your-website-in-jekyll/).
 
-This repository will also serve as my most up-to-date Jekyll theme as well. I keep a minimal version of [my no-good-very-bad template](https://github.com/svmiller/steve-ngvb-jekyll-template) on a Github repository. It's basically a Frankenstein monster of [Joel Glovier](http://joelglovier.com/)'s `jekyll-new` theme and [Alex King](http://www.alexking.org)'s [Favepersonal](https://crowdfavorite.com/favepersonal/) Wordpress theme.
+<div class="home">
+	
+	<div class="col-1">
+		
+		<p>I am a Ph.D. candidate at <a href="http://english.ucas.ac.cn/">University of Chinese Academy of Sciences</a> . I major in cyber security and my research brings a data-driven approach to the study of computer and network security. My work focus on defending the Internet’s physical core infrastructure, and guide the design and deployment of widely-used physical systems.
 
-I'm not sure this will help with search engine optimization, but, here goes: Steven V. Miller is an assistant professor and political scientist at Clemson University with research interests in international conflict and political behavior. His research has been published in journals like *Comparative Political Studies*, *Journal of Conflict Resolution*, *Journal of Peace Research*, *Conflict Management and Peace Science*, and *Social Science Quarterly*. Contents on this website typically involve professional development for students, R, LaTeX, and, occasionally, political science topics.
+		<p>
+		My comprehensive grade ranked top 5 in communication engineering of Xidian University and then I am recommend to Chinese Academy of Sciences for Ph.D. degree. To date, I have worked on device discovery and identification for embedded systems and industrial control systems for 2 years and gained a lot of project experience. In research, I’m familiar with data mining and network measurement and develop several data analysis and visualization tools. I have published five research articles and there are still five papers about discovery and analysis of Internet devices.
+		</p>
+
+		<p>To date, I have worked on device discovery and identification of embedded systems and industrial control
+		systems for 2 years and gained a lot of project experience. The primary objective of my work is to develop
+		algorithms and systems for Industrial devices in the cyber space. To be able to identify the right problems,
+		I need a deep understanding of several areas. It also requires strong capabilities to translate algorithms
+		into the meaningful implementations. Both my research record and potential are on par with the best
+		systems students in the Chinese academic science.<p>
+	</div>
+
+    <div class="col-2">
+    	{% include image.html url="/images/pic.jpg" caption="" align="center" %}
+    </div>
+
+    <div class="col-3">
+    	<p>I can be reached at fengxuan@iie.ac.cn, or xfeng9209@gmail.com. Follow me on Twitter @xuanfeng.<p>
+    </div>
+
+</div>
