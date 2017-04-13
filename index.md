@@ -1,7 +1,5 @@
 ---
-title: Home
 layout: default
-permalink: /index/
 ---
 
 
