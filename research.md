@@ -13,15 +13,18 @@ My research brings a data-driven approach to the study of computer and network s
 
 ## Publications
 
-Xuan Feng, Qiang Li, Haining Wang, Limin Sun. "["Characterizing Industrial Control Equipments on the Internet.](/research/icnp2016.pdf)." Proceedings of the 24th IEEE International Conference on Network Protocols (ICNP’16), November 8-11, 2016, Singapore.
+Qiang Li, Xuan Feng, Haining Wang, Limin Sun. "[Automatic Discovery of Surveillance Devices in the Cyberspace.](/research/icnp2016.pdf)." Proceedings of the ACM Multimedia Systems 2017 Conference (MMsys’17), June 20-23, 2017, Taipei, Taiwan.
 
-Qiang Li, Xuan Feng, Zhi Li, Haining Wang, Limin Sun. "["GUIDE: Graphical User Interface Fingerprints Physical Devices](/research/icnp2016_poster1.pdf)." Proceedings of the 24th IEEE International Conference on Network Protocols (ICNP’16), November 8-11, 2016, Singapore.
 
-Xuan Feng, Qiang Li, Haining Wang, Limin Sun. "["ASCEND: A Search Engine for Online Industrial Control Devices.](/research/icnp2016_poster2.pdf)." Proceedings of the 24th IEEE International Conference on Network Protocols (ICNP’16), November 8-11, 2016, Singapore.
+Xuan Feng, Qiang Li, Haining Wang, Limin Sun. "[Characterizing Industrial Control Equipments on the Internet.](/research/icnp2016.pdf)." Proceedings of the 24th IEEE International Conference on Network Protocols (ICNP’16), November 8-11, 2016, Singapore.
 
-Xuan Feng, Qiang Li, Qi Han, Hongsong Zhu, Yan Liu, Limin Sun. "["Identification of Visible Industrial Control Devices at Internet Scale.](/research/icc2016.pdf)." IEEE International Conference on Communications(ICC'16), May 23-27, 2016, Kuala Lumpur, Malaysia.
+Qiang Li, Xuan Feng, Zhi Li, Haining Wang, Limin Sun. "[GUIDE: Graphical User Interface Fingerprints Physical Devices](/research/icnp2016_poster1.pdf)." Proceedings of the 24th IEEE International Conference on Network Protocols (ICNP’16), November 8-11, 2016, Singapore.
 
-Xuan Feng, Qiang Li, Qi Han, Hongsong Zhu, Yan Liu, Jie Cui, Limin Sun. "["Active Profiling of Physical Devices at Internet Scale.](/research/icccn2016.pdf)." IEEE International Conference on Computer Communication and
+Xuan Feng, Qiang Li, Haining Wang, Limin Sun. "[ASCEND: A Search Engine for Online Industrial Control Devices.](/research/icnp2016_poster2.pdf)." Proceedings of the 24th IEEE International Conference on Network Protocols (ICNP’16), November 8-11, 2016, Singapore.
+
+Xuan Feng, Qiang Li, Qi Han, Hongsong Zhu, Yan Liu, Limin Sun. "[Identification of Visible Industrial Control Devices at Internet Scale.](/research/icc2016.pdf)." IEEE International Conference on Communications(ICC'16), May 23-27, 2016, Kuala Lumpur, Malaysia.
+
+Xuan Feng, Qiang Li, Qi Han, Hongsong Zhu, Yan Liu, Jie Cui, Limin Sun. "[Active Profiling of Physical Devices at Internet Scale.](/research/icccn2016.pdf)." IEEE International Conference on Computer Communication and
 Networks (ICCCN’16), August 1-4, 2016, Waikoloa, Hawaii, USA.
 
 
