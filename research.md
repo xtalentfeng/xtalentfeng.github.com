@@ -12,9 +12,14 @@ My research brings a data-driven approach to the study of computer and network s
 
 
 ## Publications
+Xuan Feng, Qiang Li, Haining Wang, Limin Sun. "[Acquisitional Rule-based Engine for Discovering Internet-of-Thing Devices.](/research/id)", Proceedings of the The USENIX Security Symposium 2018 (SEC'18), AUGUST 15–17, 2018, BALTIMORE, MD, USA
+
+Qiang Li, Xuan Feng, Zhi Li, Haining Wang, Linmin Sun. "[Towards Fine-grained Fingerprinting of Firmware in Online Embedded Devices.](/research/id)" Proceedings of the IEEE International Conference on Computer Communications 2018 (Infocom'2018), April 15-19, 2018, Honolulu, HI, USA.
+
+
+Qiang Li, Xuan Feng, Lian Zhao, Limin Sun. "[A Framework for Searching Internet-wide Devices.](/research/ic)" IEEE Network Magazine , 2017.
 
 Qiang Li, Xuan Feng, Haining Wang, Limin Sun. "[Automatic Discovery of Surveillance Devices in the Cyberspace.](/research/icnp2016.pdf)." Proceedings of the ACM Multimedia Systems 2017 Conference (MMsys’17), June 20-23, 2017, Taipei, Taiwan.
-
 
 Xuan Feng, Qiang Li, Haining Wang, Limin Sun. "[Characterizing Industrial Control Equipments on the Internet.](/research/icnp2016.pdf)." Proceedings of the 24th IEEE International Conference on Network Protocols (ICNP’16), November 8-11, 2016, Singapore.
 

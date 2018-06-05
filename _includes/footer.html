@@ -8,40 +8,58 @@
       <div class="footer-col  footer-col-1">
         <ul class="contact-list">
           <!-- <li><strong>{{ site.title }}</strong></li> -->
-			    <li>{{ site.jobtitle }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+			<li><i class="fa fa-user" aria-hidden="true"></i> {{ site.jobtitle }}</li>
+          <li><i class="fa fa-paper-plane-o" aria-hidden="true"></i> <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         </ul>
       </div>
 
-    <div class="footer-col  footer-col-2">
-        <ul class="social-media-list">
+      <div class="footer-col  footer-col-2">
+ 
+
+         <p class="text">
+          No.19(A) Yuquan Road, Shijingshan District<br/>Beijing, P.R.China 100049 <!-- {{ site.description }} -->
+      </div>
+
+      <div class="footer-col  footer-col-3">
+       <ul class="social-media-list">
      
 
-            {% if site.github_username %}
-    <li>
-      <a href="https://github.com/{{ site.github_username }}">
-        <i class="fa fa-github" style="color:gray"></i> {{ site.github_username }}
-      </a>
-    </li>
+          {% if site.github_username %}
+  <li>
+    <a href="https://github.com/{{ site.github_username }}">
+      <i class="fa fa-github" style="color:gray"></i> {{ site.github_username }}
+    </a>
+  </li>
+{% endif %}
 
+          {% if site.twitter_username %}
+  <li>
+    <a href="https://twitter.com/{{ site.twitter_username }}">
+      <i class="fa fa-twitter" style="color:gray"></i> {{ site.twitter_username }}
+    </a>
+  </li>
+{% endif %}
 
-  {% endif %}
+          {% if site.google_scholar_id %}
+  <li>
+    <a href="https://scholar.google.com/citations?user={{ site.google_scholar_id }}">
+      <i class="ai ai-google-scholar" style="color:gray"></i> {{ site.google_scholar_id }}
+    </a>
+  </li>
+{% endif %}
 
-            {% if site.twitter_username %}
-    <li>
-      <a href="https://twitter.com/{{ site.twitter_username }}">
-        <i class="fa fa-twitter" style="color:gray"></i> {{ site.twitter_username }}
-      </a>
-    </li>
-  {% endif %}
+          {% if site.orcid_id %}
+  <li>
+    <a href="https://orcid.org/{{ site.orcid_id }}">
+      <i class="ai ai-orcid" style="color:gray"></i> {{ site.orcid_id }}
+    </a>
+  </li>
+{% endif %}
+
 
        
         </ul>
       </div>
-
-      <div class="footer-col  footer-col-3">
-         <p class="text">
-		Beijing, P.R.China 100049</p>
     </div>
 
   </div>
